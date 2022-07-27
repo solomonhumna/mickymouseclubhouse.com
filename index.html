@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<!-- 
+   HUL 494 Mickey Mouse Clubhouse project outline
+   Group Members: John Alfred, Solomon Humna, Neal Kochhar, Grayce Marshall, Cody Norris
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, inital-scale=1" />
+        <title>Mickey Mouuse Clubhouse</title>
+        
+    </head>
+    <body>
+        <h2>Hello, What is your name?</h2>
+        <input id="userInput"> <br> <br/>
+        <button onclick="mickeyFunction()"> Enter </button>
+        <h2 id="userEntered"> </h2>
+        <style>
+            body {
+            background-color: rgb(247, 229, 221);
+            display: block;
+            text-align: center;
+            width: 100%;
+            }
+        </style>
+        <script>
+            function  mickeyFunction() {
+                let userInput = document.querySelector("#userInput");
+                let input = document.querySelector("#userEntered");
+                userEntered.innerHTML = "Thank You for voluntering in Mickey Mouse Clubhouse survey! " + userInput.value;
+            }
+        </script>
+        
+    </body>
+    
+</html>
